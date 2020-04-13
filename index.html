@@ -1,58 +1,37 @@
+<!-- In this file you are going to write html code -->
+
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Zomato Replica Project</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="img/final.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    
-</head>
-    <style> 
-        img { 
-            max-width: 25%; 
-            max-height: 25%; 
-            padding-top:5px;
-        } 
-       
-        .banner{
-            width:100%;
-            background-size: cover;
-            height: auto;
-            background-image: url(images/background.jpg)
-        }
-        .banner.top{
-            display: flex;
-            float: right;
-            padding: 10px;
-        }
-        .banner.top h6{
-            color: white;
-            padding-right: 15px;
-        }
-        .banner.top.button{
-            border: 1px solid white;
-            background-color: none;
-            color: white;   
-        }
-        html{
-                 font-size:18px;
-            }
-        .zomaland img {
-  grid-area: zomaland;
-  width: 100%;
-  padding-right: 15px;
-}
-       
-
-    </style>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/patch.css">
+        <title>Zomato Replica Project</title>
+      </head>
 <body>
-    
-   
+
+  
+
+  <div class="patch001">
     <header class="h-container">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </header>
+  </div>
+
+  
+    <header class="h-container container">
         <div class="row">
             <div class="col-6 d-flex flex-row align-items-center align-items-sm-start">
                 <ul>
@@ -86,8 +65,8 @@
         </div>
     </header>
    
-    
- <section class="banner jumbotron jumbotron-fluid pt-2">
+
+    <section class="banner jumbotron jumbotron-fluid pt-2">
         <div class="container banner-section1 d-flex flex-row align-items-center justify-content-end">
             <a href="#" class="mx-3">Log in</a>
             <button class="btn btn-outline-secondary mx-2">Create an account</button>
@@ -113,9 +92,72 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
    
-    <div class="widget">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7 col-12">
+        <div class="row">
+          <img src="./images/ad-zomaland.jpeg" alt="" id="collectionbanner" class="w-100">
+        </div>
+        <div class="row collection mt-5 pl-1">
+          <h1>Collections</h1>
+          <small class="my-3">Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on
+            trends</small>
+          <div class="row">
+            <div class="col-sm-6 col-12 py-2 collection_item">
+              <div class="d-flex flex-row align-items-center justify-content-around">
+                <div>
+                  <img src="./images/trending.jpg" alt="">
+                </div>
+                <div class="px-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, ex.
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12 py-2 collection_item">
+              <div class="d-flex flex-row align-items-center justify-content-around">
+                <div>
+                  <img src="./images/mumbai.jpg" alt="">
+                </div>
+                <div class="px-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, ex.
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12 py-2 collection_item">
+              <div class="d-flex flex-row align-items-center justify-content-around">
+                <div>
+                  <img src="./images/open.jpg" alt="">
+                </div>
+                <div class="px-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, ex.
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12 py-2 collection_item">
+              <div class="d-flex flex-row align-items-center justify-content-around">
+                <div>
+                  <img src="./images/surecrisp.jpeg" alt="">
+                </div>
+                <div class="px-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, ex.
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="collbutton w-100 btn btn-light my-1 p-2">
+            All collections in Mumbai
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-5 col-12 main-widget py-0">
+        <h1 class="my-1 mb-2">Order Food Online</h1>
+        <small>Best restaurants delivering to your doorstep.</small>
+        <div class="mt-2 subwidget p-2">
+
+                 
+          <div class="widget">
             <h4>Enter your delivery location</h4>
             <div class="row my-1 p-2">
               <div class="col-8 p-1">
@@ -134,76 +176,62 @@
           </div>
           <hr>
           <h2 class="text-success my-5">Use code ZOMATO to get up to 50% OFF. T&Cs apply.</h2 class="text-success my-5">
-     
-     <div class="zomland">
-         <img src="images/ad-zomaland.jpeg" alt=" "></div>
-        
-        
-
-        <div class="container">  
-            <h5>Collections</h5>
-                <p>Expolre lists of top resturant,cafes,pubs and bars in mumbai,based on trends</p>
-    <div class="row">
-    <div class="col-sm-6" style="background-color:white;">
-        <img src="images/trending.jpg" alt=" " class="float-left">
-        <div class="content heading"><h5>Trending This Week</h5></div>
-        <p>Most popular resturant in this week</p>
-    </div>
-      
-    <div class="col-sm-6" style="background-color:white;">
-        <img src="images/mumbai.jpg" alt=" " class="float-left">
-        <div class="content heading"><h5>Best of Mumbai</h5></div>
-          <p>The hunt for the highest-rated resturant in your city</p>
-           </div>  
-      
-       <div class="col-sm-6" style="background-color:white;">
-        <img src="images/open.jpg" alt=" " class="float-left">
-        <div class="content heading"><h5>Newly Opened</h5></div>
-          <p>The best new places in town</p>
-      </div>
-      
-       <div class="col-sm-6" style="background-color:white;">
-        <img src="images/surecrisp.jpeg" alt=" " class="float-left">
-        <div class="content heading"><h5>SureCrisp Quick</h5></div>
-          <p>Turn up the flavour by oerdering SureCrisp fries </p>
         </div>
-    </div> 
-</div>
-
-            
-        
-
- <section class="categories container my-4">
+      </div>
+    </div>
+  </div>
+  
+  <section class="categories container my-4">
     <h2 id="cat-title" class="my-2">Quick Searches</h2>
     <p id="cat-subtitle">Discover restaurants by type of meal</p>
     <ul class="category-list d-flex flex-row flex-wrap align-items-center justify-content-around p-3 my-2">
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/delivery.png" alt="">Delivery
+        <img src="./images/delivery.png" alt="">Delivery
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/pocket-friendly-delivery.png" alt="">Pocket-Friendly<br>Delivery
+        <img src="./images/pocket-friendly-delivery.png" alt="">Pocket-Friendly Delivery
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/breakfast.png" alt="">Breakfast
+        <img src="./images/breakfast.png" alt="">Breakfast
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/lunch.png" alt="">Lunch
+        <img src="./images/lunch.png" alt="">Lunch
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/dinner.png" alt="">Dinner
+        <img src="./images/dinner.png" alt="">Dinner
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/drinks.png" alt="">Drinks & Nightlife
+        <img src="./images/drinks.png" alt="">Drinks & Nightlife
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/cafes.png" alt="">Cafes
+        <img src="./images/cafes.png" alt="">Cafes
       </li>
       <li class="d-flex flex-column align-items-center justify-content-around">
-        <img src="images/desserts.png" alt="">Desserts & Bakes
+        <img src="./images/desserts.png" alt="">Desserts & Bakes
       </li>
     </ul>
   </section>
-      <section class="localities container">
+  
+
+
+
+  <div class="patch005">
+    <ul class="category-list">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <!-- end of patch5 -->
+
+
+  <section class="localities container">
     <h2 id="loc-title" class="my-2">
       Popular localities in and around Mumbai
     </h2>
@@ -250,54 +278,122 @@
     </ul>
 
   </section>
-  
 
-  <footer>
-      <div class="footer-wrapper">
-   <nav class="navbar navbar-inverse">
-       <div class="foot top">
-        <ul class="nav navbar-nav navbar-left">   
-            <img src="images/zomato logo.jpg" class="float-left"></ul></div>
-       
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mumbai
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Pune</a></li>
-          <li><a href="#">Banglore</a></li>
-          <li><a href="#">Hydrabad</a></li>
-        </ul>
-      </li>
-    </ul>
-</nav>
-      
-<div class="container-fluid">
+<footer>
   <div class="row">
-      <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><h3>About Zomato</h3><br>About us<br>Culture<br>Blog<br>Careers<br><br><br><br><br><br><br></p></div>
-    
-    <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><h3>For Foodies</h3><br>Code for conduct<br>Community<br>Vrified users<br>Blogger help<br>Developers|<br>Mobile apps<br><br><br><br><br></p></div>
-    
-    <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><h3>For Resturant</h3>Add a resturant<br> Product for business<br>
-    claim your listing <br> Advertise<br>
-    Business App  Order<br>
-    Business owner guidelines  <br>Book<br>
-    Business Blog <br> Trace<br>
-    Resturant widget <br> Hyperpure<br></p></div>
-     
-     <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><h3><br>Country</h3>Austrelia<br>Brasil<br>Canada<br>Chile<br>Czech Republic<br>Austrelia<br>Brasil<br>Canada<br>Chile<br>Czech Republic<br></p></div>
-        
-   <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><br><br>Austrelia<br>
-       Brasil<br>Canada<br>Chile<br>Czech Republic<br>Austrelia<br>Brasil<br>Canada<br>Chile<br>Czech Republic<br><br><br></p></div>
-   <div class="col-sm-4" style="background-color:black;"><p class="text-muted"><br><br>Austrelia<br>
-       Brasil<br>Canada<br>Chile<br>Czech Republic<br>Austrelia<br>Brasil<br>Canada<br>Chile<br>Czech Republic<br><br><br></p></div>
-   
-   <div class="col-sm-12" style="background-color:black;"><p class="text-muted">Privacy  Terms  API Policy  CSR  Security  Sitemap</p>
-  </div>
+    <img src="./images/zomato_flat_bg_logo.svg" alt="" >
+    <button class=" d-flex btn btn-dark  col-4  col-sm-2 ml-auto dropdown-toggle mx-3 my-2 " 
+     type="button">Engilsh</button>
+   </div>
 
- <div class="col-sm-12" style="background-color:black;"><p class="text-muted">By continuing past this page,you agree to our Terms of service,cookie policy,Privacy policy and content Policies.All treademarks are properties of their repective owners 2008-2009 Zomato media Pvt ltd.All rights reserved.</p>
+
+    <div class="footer-wrapper container">
+      <div class="row pb-4" style="border-bottom: 1px solid rgba(255, 255, 255, 0.219);">
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="widgettitle">About Zomato</li>
+            <li>About Us</li>
+            <li>Culture</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="widgettitle">For Foodies</li>
+            <li>Code of Conduct</li>
+            <li>Community</li>
+            <li>Verified Users</li>
+            <li>Blogger Help</li>
+            <li>Developers</li>
+            <li>Mobile Apps</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="widgettitle">For Restaurants</li>
+            <li>Add a Restaurant</li>
+            <li>Claim your Listing</li>
+            <li>Business App</li>
+            <li>Business Owner Guideliness</li>
+            <li>Business Blog</li>
+            <li>Restaurant widget</li>
+            <li>Products for Business</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="mt-5">Advertise</li>
+            <li>Order</li>
+            <li>Book</li>
+            <li>Trace</li>
+            <li>Hyperpure</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row pb-4" style="border-bottom: 1px solid rgba(255, 255, 255, 0.219);">
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="widgettitle">Countries</li>
+            <li>Australia</li>
+            <li>Brasil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+            <li>Czech Republic</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="mt-5">India</li>
+            <li>Indonesia</li>
+            <li>Ireland</li>
+            <li>Italy</li>
+            <li>Lebanon</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="mt-5">Malaysia</li>
+            <li>New Zealand</li>
+            <li>Philippines</li>
+            <li>Poland</li>
+            <li>Portugal</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 footerwidget">
+          <ul>
+            <li class="mt-5">Qatar</li>
+            <li>Singapore</li>
+            <li>Solvakia</li>
+            <li>South Africa</li>
+            <li>Sri Lanka</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row pb-3" style="border-bottom: 1px solid rgba(255, 255, 255, 0.219);">
+        <div class="col-sm-12 footerwidget">
+          <ul class="d-flex flex-row justify-content-between">
+            <li>Privacy</li>
+            <li>Teams</li>
+            <li>API Policy</li>
+            <li>CSR</li>
+            <li>Security</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-</div>
-    </footer>
-  
+    </div>
 
+  </footer>
+</body>
+</html>
